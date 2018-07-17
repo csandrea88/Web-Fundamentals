@@ -1,0 +1,55 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: small;
+}
+h1 {
+    font-size: x-large;
+    margin: 20px;
+}
+button {
+    display: inline-block;
+    color: darkslategrey;
+    border-radius: 10px;
+    /*padding: 5px;*/
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+    height: 25px;
+}
+p { 
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+form {
+    margin:20px;
+}
+
+
+.line {
+    background-color: tan;
+    height: 3px;
+    width: 100%;
+    padding:0px;
+    margin:20px;
+}
+
+#info {
+    margin: 20px;
+}
+
+
+

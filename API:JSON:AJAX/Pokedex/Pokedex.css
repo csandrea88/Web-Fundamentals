@@ -1,0 +1,72 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: small;
+}
+h1 {
+    font-size: x-large;
+    margin: 20px;
+}
+h2 {
+    font-size: large;
+}
+ul{
+    margin-bottom: 20px; 
+}
+li {
+    list-style: none;
+}
+button {
+    display: inline-block;
+    color: darkslategrey;
+    border-radius: 10px;
+    /*padding: 5px;*/
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+    height: 25px;
+}
+p { 
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.line {
+    background-color: tan;
+    height: 3px;
+    width: 100%;
+    padding:0px;
+    margin:20px;
+}
+
+#leftcol {
+    width: 75%;
+    display: inline-block
+
+}
+
+#rightcol {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    padding: 20px;
+}
+
+
+
+
+

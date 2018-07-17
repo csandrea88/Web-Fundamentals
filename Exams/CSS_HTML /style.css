@@ -1,0 +1,185 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: small;
+    color: whitesmoke;
+}
+p {
+    display: inline-block;
+}
+h1 {
+    display: inline-block;
+    margin: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+h2 {
+    /*margin: 10px;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*padding: 10px;*/
+    font-size: x-large;
+    
+}
+h3 {
+    font-size: large;
+   
+}
+#form {
+    display:inline-block;
+    margin:10px;
+}
+input[type=submit] {
+    display: inline-block;
+    box-shadow: white;
+    background-color:goldenrod;
+    border-color: white;
+    padding-left: 2px;
+    margin: 5px;
+    width: 15px;
+}
+input[type=text] {
+    display: inline-block;
+}
+span {
+    color: goldenrod;
+}
+#wrapper{
+    width: 970px;
+    margin: 0px auto;
+    background-color: rgb(6, 24, 24);
+    /*overflow:hidden;
+    height:auto;*/
+}
+#topNav {
+    display: inline-block;
+    background-color: grey;
+}
+#topNav p{
+    width:110px;
+    height: 40px;
+    text-align: center;
+    border-right-style: solid;
+    border-color: rgb(146, 145, 145);
+    padding-top: 10px;
+}
+#leftcol {
+    display: inline-block; 
+    width:250px;
+    height:auto;
+}
+
+#rightcol {
+    display: inline-block;
+    vertical-align:top;
+    width: 675px;
+    height: auto;
+    border-top-left-radius: 25px;
+    background-color: darkslategrey;
+    Padding:10px;
+
+}
+#rightcolleft {
+    display: inline-block;
+    text-align: justify;
+    width: 400px;
+    height:auto;
+}
+#rightcolright {
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    width: 200px;
+    height:auto;
+    padding:10px;
+}
+.greybar {
+    display:inline-block;
+    height: 40px;
+    width: 100%;
+    background-color: grey;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: darkslategray;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color:darkslategray;
+    vertical-align: top;
+}
+.atpic {
+    display: inline-block;
+    height: 50px;
+    width:50px;
+    margin-left: 600px;
+    margin-top:5px;
+    vertical-align: top;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    margin-bottom: 5px;
+}
+
+.trees{
+    /*display: inline-block;*/
+    height: 150px;
+    width: 970px;
+}
+.maze {
+    display: inline-block;
+    height: 150px;
+    width: 225px;
+    margin: 10px;
+}
+.pine {
+    display: inline-block;
+    height: 100px;
+    width: 225px;
+    margin: 10px;
+    border-style: solid;
+    border-color:whitesmoke;
+    border-width: 1px;
+}
+.line {
+    display: inline-block;
+    height: 5px;
+    width: 375px;
+    margin-top: 10px;
+    /*margin-bottom: 10px;*/
+    border-color: slategray;
+    border-style: solid;
+    border-width: 1px;
+}
+.notestop {
+    display: inline-block;
+    border-left-color: grey;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: grey;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: grey;
+    border-top-style: solid;
+    border-top-width: 1px;
+    text-align: center;
+    padding: 10px;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right: 10px;
+    width:200px;
+    
+}
+.notesbottom {
+    display: inline-block;
+    border-style:solid;
+    border-color: grey;
+    border-width: 1px;
+    height:auto;
+    background-color: darkslategray;
+    /*vertical-align: middle;*/
+    padding: 10px;
+    margin-right:10px;
+    margin-left:10px;
+    margin-bottom: 10px;
+    width:200px;    
+}

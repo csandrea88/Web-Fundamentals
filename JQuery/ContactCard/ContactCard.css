@@ -1,0 +1,97 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: small;
+}
+h1 {
+    font-size: x-large;
+    margin: 20px;
+}
+button {
+    display: inline-block;
+    color: darkslategrey;
+    border-radius: 10px;
+    /*padding: 5px;*/
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+    height: 25px;
+}
+p { 
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+body {
+    margin:20px;
+    height:auto;
+}
+img {
+    display: inline-block;
+    height: 300px;
+    width: 200px;
+}
+
+form {
+    display: inline-block;
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom:100px;
+}
+label.mtop {
+    margin-top: 150px;
+}
+input#idesc {
+    height: 100px;
+    width: 200px; 
+    display:inline-block;
+
+}
+
+#leftcol {
+    display:inline-block;
+    width: 275px;
+
+   
+}
+#rightcol {
+    display:inline-block;
+    width:400px;
+    vertical-align: top;
+}
+.contactboxN  .contactboxD  {
+    width:300px;
+    height:150px;
+    background-color: tan;
+    font: x-large;
+
+}
+.line {
+    background-color: tan;
+    height: 3px;
+    width: 100%;
+    padding:0px;
+    margin:20px;
+}
+
+#info {
+    margin: 20px;
+}
+th, td, tr{
+
+    width: 200px;
+    height: 25px;
+    text-align: left;
+
+}
+.contactboxN {
+    
+}
+.hidden {
+    visibility: hidden; 
+}
+

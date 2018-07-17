@@ -1,0 +1,104 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: small;
+    color: white;
+}
+h1 {
+    margin: 20px;
+    font-size: x-large;
+    font-weight: bold;
+}
+h2 {
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+button {
+    display: inline-block;
+    box-shadow: white;
+    background-color:blue;
+    color: white;
+    border-radius: 15px;
+    /*padding: 5px;
+    margin: 10px;*/
+    width: 75px;
+}
+p { 
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+a {
+    color: white;
+}
+ul {
+    list-style-position: inside;
+
+}
+ul li {
+    padding
+}
+#wrapper{
+    width: 970px;
+    margin: 0px auto;
+    /*overflow:hidden;
+    height:auto;*/
+}
+#blueArea {
+    background-color: blue;
+}
+#leftheader {
+ display: inline-block;
+ 
+}
+#leftheader img{
+    width: 300px;
+    height: 150px;
+}
+#rightheader {
+ display: inline-block;
+ vertical-align: top;
+ text-align: right;
+ width: 484px;
+ /*height: 40px;*/
+}
+/*#rightheader span{
+    color: blue;*/
+}
+#rightheader a {
+    color: gold;
+}
+#topNav {
+    display: inline-block;
+    width: 900px;
+    height: 50px;
+    background-color: lightblue; 
+    
+}
+.navbar {
+    display: inline-block;
+    width: 146px;
+    margin:5px;
+    text-align: center;
+
+}
+#leftNav {
+    display:inline-block;
+    list-style-position: inside;
+
+     
+
+}
+#rightContent {
+    display:inline-block;
+
+}
+#contentCols {
+    display: inline-block;
+
+}
+#footer {
+}

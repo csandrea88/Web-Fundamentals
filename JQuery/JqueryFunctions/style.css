@@ -1,0 +1,64 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: small;
+}
+h1 {
+    padding: 20px;
+    font-size: x-large;
+    font-weight: bold;
+}
+h2 {
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+
+button {
+    display: inline-block;
+    color: darkslategrey;
+    border-radius: 10px;
+    /*padding: 5px;*/
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+    height: 25px;
+}
+p { 
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+a {
+    color: turquoise;
+}
+ol {
+    margin:20px;
+    margin-bottom: 
+}
+ul {
+    margin: 20px;
+}
+input {
+    margin: 20px;
+}
+.selected {
+    color: blue;
+  }
+.awesome {
+    -webkit-box-shadow: 10px 10px 5px #333;
+    -moz-box-shadow: 10px 10px 5px #333;
+    box-shadow: 10px 10px 5px #333;
+  }
+  .line {
+    background-color: tan;
+    height: 3px;
+    width: 100%;
+    padding:0px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}

@@ -1,0 +1,180 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: small;
+}
+h1 {
+    font-size: x-large;
+    font-weight: bold;
+}
+h2 {
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+button {
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+    /*padding: 5px;*/
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+    height: 25px;
+}
+p { 
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+a {
+    color: turquoise;
+}
+ol {
+    margin:20px;
+    margin-bottom: 
+}
+ul {
+    margin: 20px;
+}
+#wrapper{
+    width: 970px;
+    margin: 0px auto;
+    /*overflow:hidden;
+    height:auto;*/
+}
+#header {
+    height: 100px;
+}
+#header img {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top:  10px;
+}
+#header h1 {
+    margin-left: 70px;
+}
+#header h2 {
+    margin-top: 10px;
+}
+.line {
+    background-color: grey;
+    height: 3px;
+    width: 100%;
+    padding:0px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+.blue {
+    background-color: royalblue;
+}
+.orange {
+    background-color: orange;
+}
+.headerblue {
+    width: 970px;
+    height: 20px;
+    background: linear-gradient(royalblue, white, royalblue); 
+}
+.headerwhite {
+    width: 970px;
+    height:60px;
+    background-color: white;
+}
+#leftcol {
+ display: inline-block;
+ width: 200px;
+ height: auto;
+ margin-right: 40px;
+}
+#ninjpic {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    background-image: url("images/ad_background.png");
+}
+#ninjpic img {
+    height: 125px;
+    width: 75px;
+    margin-left: 55px;
+}
+#ninjpic h1 {
+    padding-left:15px;
+    padding-top:20px;
+    padding-right:20px;
+    color: white;
+    margin: 5px;
+}
+#rightcol {
+ display: inline-block;
+ text-align: left;
+ width: 684px;
+ vertical-align: top;
+ /*height: 40px;*/
+}
+#rightcol span {
+    color: turquoise;
+}
+#rightcol img.DNS {
+    width: 15px;
+    height: 15px; 
+}
+#rightcol .left {
+    display:inline-block;
+    text-align: left;
+    font-size: large;
+    margin-right: 460px;
+    margin-left: 0px;
+    vertical-align: top;
+}
+#rightcolhdr {
+    display:inline-block;
+    text-align: right;
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+#rightcolhdr p{
+    margin:0px;
+}
+#rightcolhdr span {
+    font-size: x-large;
+}
+.client {
+    width: 200px;
+    height: 100px;
+    margin-left: 250px;
+}
+
+#rightcol img.phone {
+    width: 15px;
+    height: 15px;
+    
+}
+#bluebox {
+    display: inline-block;
+    border-style: solid;
+    border-color: blue;
+    border-width: 3px;
+    height: auto;
+    width: 600px;
+}
+
+#bluebox img{
+    display: inline-block;
+    width: 120px;
+    height:120px;
+    margin-left: 20px;
+}
+#blueboxright {
+    display: inline-block;
+    width:400px;
+}
+}
+

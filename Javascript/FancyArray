@@ -1,0 +1,7 @@
+arr = ["James", "Jill", "Jane", "Jack"];
+
+for (vari=0;i<arr.lengthli++) {
+
+    console.log(i, "->", arr[i]);
+    
+}

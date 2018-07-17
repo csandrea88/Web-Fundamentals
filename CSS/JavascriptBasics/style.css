@@ -1,0 +1,86 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+ font-size: small;
+}
+a {
+    color: turquoise;
+}
+#wrapper{
+ width: 970px;
+ background-color: blue;
+ margin: 0px auto;
+ overflow:hidden;
+ height:auto;
+ 
+}
+#header{
+ height: 75px;
+ margin: 10px;
+ background-color: red;
+ border-radius: 25px;
+ font-size: x-large;
+}
+h1 {
+    padding: 20px;
+    font-size: x-large;
+}
+p { 
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#navigation {
+ float:left;
+ height: 300px;
+ width: 200px;
+ background-color: teal;
+ margin: 10px;
+ border-radius: 25px;
+ margin-right: 10px;
+ padding-top: 10px;
+}
+#navigation p {
+ text-indent: 20px;
+}
+
+ #navigation ul {
+ position: relative;
+ left:40px;
+}
+#navigation ul ul{
+    /*position: absolute;
+    top:60px;*/
+    left:10px;
+}
+#main_content{
+ 
+ display: inline-block;
+ height: auto;
+ padding-bottom: 10px;
+ width: 700px;
+ background-color: black;
+ border-radius: 25px;
+ margin-top: 10px;
+ margin-left: 40px;
+ margin-bottom: 10px;
+ color: white;
+}
+#main_content ul {
+    position: relative;
+    left:25px;
+    width: 670px;
+   }
+#advertisement{
+ 
+ height: 35px;
+ width: 950px;
+ background-color: grey;
+ margin: 10px;
+ border-radius: 25px;
+ float: bottom;
+ padding-top: 20px;
+ padding-left: 10px;
+}

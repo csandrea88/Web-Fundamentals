@@ -1,0 +1,135 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+ font-size: small;
+}
+h1 {
+margin: 20px;
+ font-size: x-large;
+}
+fo
+h2 {
+ padding: 10px;
+ font-size: medium;
+ font-weight: bold;
+}
+button {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 80px;
+    width: 125px;
+}
+p { 
+ margin-top: 10px;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-bottom: 10px;
+}
+a {
+    color:black;
+}
+#wrapper{
+ width: 970px;
+ margin: 0px auto;
+ overflow:hidden;
+ height:auto;
+}
+#header{
+ height: auto;
+ width: 970px;
+ font-size: x-large;
+ background-color: whitesmoke;
+}
+#leftheader {
+ display: inline-block;
+ text-align: left;
+ width: 480px;
+}
+#rightheader {
+ display: inline-block;
+ text-align: right;
+ width: 484px;
+ height: 40px;
+}
+#main_content{
+ height: auto;
+ width: 970px;
+ background-color: purple;
+ overflow:hidden;
+ 
+}
+#lefttopcontent{
+ float: left;
+ height: auto;
+ width: 484px;
+}
+#lefttopcontent img {
+ height: 250px;
+ width: 380px;
+ border-color: grey;
+ border-width: 5px;
+ border-style: solid;
+ margin-top: 23px;
+ margin-left: 18px;
+}
+#righttopcontent {
+ display: inline-block;
+ height: 264px;
+ width: 451px;
+ background-color: white;
+ margin-left: 18px;
+ margin-top: 22px;
+}
+#colcontent {
+ width: 970px;
+ height: auto;
+}
+.subcolcontent {
+ display: inline-block;
+ width: 280px;
+ height: 575px;
+ background-color: white;
+ padding:10px;
+ margin-left: 15px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.subcolcontent img {
+    width: 280px;
+}
+.greybox {s
+    background-color: grey;
+    padding:10px;
+}
+.subcolcontent .techimgs {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+#footer{
+ height: 45px;
+ width: 970px;
+ background-color: whitesmoke;
+ /*float: bottom;*/
+ vertical-align: bottom;
+ /*padding-top: 20px;
+ padding-left: 10px;*/
+}
+ 
+#footer img {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-bottom: -2px;
+}
+#footer p {
+    text-align: center;
+
+}
